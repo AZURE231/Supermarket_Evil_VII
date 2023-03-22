@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.009012707, g: 0.013102867, b: 0.020503506, a: 1}
+  m_IndirectSpecularColor: {r: 0.094288595, g: 0.1194504, b: 0.15523562, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -61402,7 +61402,7 @@ MonoBehaviour:
   crosshairSprite: {fileID: 0}
   cameraPerspective: 0
   automaticallySwitchPerspective: 1
-  perspectiveSwitchingKey: 31
+  perspectiveSwitchingKey_L: 0
   mouseInputInversion: 0
   Sensitivity: 8
   rotationWeight: 4
@@ -61425,9 +61425,9 @@ MonoBehaviour:
   sprintingSpeed: 260
   crouchingSpeed: 45
   decelerationSpeed: 240
-  sprintKey: 51
-  crouchKey: 55
-  slideKey: 36
+  sprintKey_L: 304
+  crouchKey_L: 306
+  slideKey_L: 118
   canSprint: 1
   isSprinting: 0
   toggleSprint: 0
@@ -61452,7 +61452,7 @@ MonoBehaviour:
   holdJump: 0
   jumpEnhancements: 1
   Jumped: 0
-  jumpKey: 1
+  jumpKey_L: 32
   jumpPower: 40
   airControlFactor: 1
   decentMultiplier: 2.5
@@ -61516,7 +61516,7 @@ MonoBehaviour:
     hasLowHealth: 0
     isStarving: 0
     isDehydrated: 0
-  interactKey: 19
+  interactKey_L: 101
   interactRange: 4
   interactableLayer:
     serializedVersion: 2
@@ -75027,7 +75027,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839272201}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.65, z: 0}
+  m_LocalPosition: {x: 0, y: 0.78, z: 0.081}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
