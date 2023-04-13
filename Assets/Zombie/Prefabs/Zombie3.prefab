@@ -806,6 +806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8429865231615740692}
   - component: {fileID: 3568628872616989892}
+  - component: {fileID: 3106075208216352570}
   m_Layer: 0
   m_Name: Zombie3
   m_TagString: Dummie
@@ -850,6 +851,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!136 &3106075208216352570
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4803014352389650695}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.17247748
+  m_Height: 1.8500917
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.8744217, z: -0.04341352}
 --- !u!1 &4956532458698703312
 GameObject:
   m_ObjectHideFlags: 0
