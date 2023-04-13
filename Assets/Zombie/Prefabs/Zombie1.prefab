@@ -1722,6 +1722,7 @@ GameObject:
   - component: {fileID: 578376449398627443}
   - component: {fileID: 7389507112651452681}
   - component: {fileID: 8779659779144222596}
+  - component: {fileID: -5863473611124786521}
   m_Layer: 0
   m_Name: Zombie1
   m_TagString: Dummie
@@ -1793,6 +1794,19 @@ CapsuleCollider:
   m_Height: 1.7782803
   m_Direction: 1
   m_Center: {x: 0.0018404424, y: 0.89792323, z: -0.037600726}
+--- !u!114 &-5863473611124786521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4493914613880827488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fed38093654b0d246b17c8a02183bc58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!1 &4710940672626480558
 GameObject:
   m_ObjectHideFlags: 0
