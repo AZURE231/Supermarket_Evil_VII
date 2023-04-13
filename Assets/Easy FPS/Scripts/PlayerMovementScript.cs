@@ -293,6 +293,11 @@ public class PlayerMovementScript : MonoBehaviour {
 					print ("hit a dummie");
 				}
 				InstantiateBlood(hitInfo,false);
+				ZombieHealth health = _other.GetComponent<ZombieHealth>();
+				if (health != null)
+				{
+					health.health -= 20;
+				}
 			}
 		}
 		yield return new WaitForEndOfFrame ();
