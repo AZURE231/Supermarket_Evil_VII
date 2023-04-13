@@ -807,7 +807,6 @@ GameObject:
   - component: {fileID: 8429865231615740692}
   - component: {fileID: 3568628872616989892}
   - component: {fileID: 3106075208216352570}
-  - component: {fileID: 6411426980738776854}
   m_Layer: 0
   m_Name: Zombie3
   m_TagString: Dummie
@@ -866,19 +865,6 @@ CapsuleCollider:
   m_Height: 1.8500917
   m_Direction: 1
   m_Center: {x: 0, y: 0.8744217, z: -0.04341352}
---- !u!114 &6411426980738776854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4803014352389650695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fed38093654b0d246b17c8a02183bc58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
 --- !u!1 &4956532458698703312
 GameObject:
   m_ObjectHideFlags: 0

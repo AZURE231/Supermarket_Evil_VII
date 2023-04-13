@@ -30,11 +30,6 @@ public class BulletScript : MonoBehaviour {
 				}
 				if(hit.transform.tag == "Dummie"){
 					Instantiate(bloodEffect, hit.point, Quaternion.LookRotation(hit.normal));
-					ZombieHealth health = hit.transform.gameObject.GetComponent<ZombieHealth>();
-					if (health != null)
-					{
-						health.health -= 20;
-					}
 					Destroy(gameObject);
 				}
 			}		
